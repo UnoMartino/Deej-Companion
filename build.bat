@@ -1,0 +1,1 @@
+pyinstaller -F --noconsole --windowed --add-data icon.ico:. -i .\icon.ico --clean --disable-windowed-traceback .\DeejCompanion.py

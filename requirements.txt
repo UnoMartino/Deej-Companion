@@ -1,0 +1,4 @@
+pyserial 
+python-rtmidi
+PySimpleGUI==4.70.1
+pystray
