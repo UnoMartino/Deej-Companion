@@ -80,12 +80,12 @@ SectionEnd
 
 Function un.onUninstSuccess
   HideWindow
-  MessageBox MB_ICONINFORMATION|MB_OK "Program $(^Name) zosta³ pomyœlnie usuniêty."
+  MessageBox MB_ICONINFORMATION|MB_OK "Program $(^Name) zostaÂ³ pomyÅ“lnie usuniÃªty."
 FunctionEnd
 
 Function un.onInit
 !insertmacro MUI_UNGETLANGUAGE
-  MessageBox MB_ICONQUESTION|MB_YESNO|MB_DEFBUTTON2 "Czy na pewno chcesz usun¹æ program $(^Name) i wszystkie jego komponenty?" IDYES +2
+  MessageBox MB_ICONQUESTION|MB_YESNO|MB_DEFBUTTON2 "Czy na pewno chcesz usunÂ¹Ã¦ program $(^Name) i wszystkie jego komponenty?" IDYES +2
   Abort
 FunctionEnd
 
@@ -99,7 +99,6 @@ Section Uninstall
   Delete "$DESKTOP\Deej Companion.lnk"
   Delete "$SMPROGRAMS\Deej Companion\Deej Companion.lnk"
 
-  RMDir "$SMPROGRAMS\Startup"
   RMDir "$SMPROGRAMS\Deej Companion"
   RMDir "$INSTDIR"
 
