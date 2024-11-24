@@ -163,7 +163,7 @@ setBaudrates()
 getMidiPorts()
 
 wc = len(max(spStrings + midiinPorts + midioutPorts, key=len))
-scbString = 'ScanPorts'
+scbString = 'Scan Ports'
 stbString = 'Start'
 exbString = 'Exit'
 wb = len(max([scbString, stbString, exbString], key=len))
