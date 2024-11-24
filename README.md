@@ -42,4 +42,4 @@ You can create a Windows installer with the provided NSIS script `installer.nsi`
 
 ### Notes
 
-You are free to modify it as long as it's not for commercial purposes.
+You are free to modify the project according to the license.
