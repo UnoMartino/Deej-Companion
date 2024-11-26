@@ -13,7 +13,17 @@ Based on [SerialMidiBridge](https://github.com/chava100f/SerialMidiBridge) pytho
 
 ### Usage
 
-After starting you will be able to choose the serial port, baudrate, MIDI In and MIDI Out port. The Scan button will re-scan for available serial and midi ports. Your selection is remembered for next usage. After starting the server no changes can be made until the server is stopped.
+After starting you will be able to choose the serial port, baudrate, MIDI In and MIDI Out port. The Scan button will re-scan for available serial and midi ports. Your selection is remembered for next usage. 
+
+#### MIDI Mixer
+
+A preset for [MIDI Mixer](https://www.midi-mixer.com/) app containing pre-made mappings is available. You can load it by clicking this link:  
+[midi-mixer://share/28038c8922a2f53ac3d042145ebbd1c3](midi-mixer://share/28038c8922a2f53ac3d042145ebbd1c3)
+
+### Firmware
+
+If you're looking for Deej firmware, you can find it [here](https://github.com/UnoMartino/Deej-Firmware).
+
 
 
 ### Adapting/building
